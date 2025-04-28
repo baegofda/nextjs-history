@@ -1,0 +1,7 @@
+{
+  "name": "nextjs-history",
+  "version": "0.1.0",
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  }
+}
