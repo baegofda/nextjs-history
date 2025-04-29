@@ -4,11 +4,9 @@
   "description": "Next.js 성장 일대기 프레젠테이션",
   "main": "index.html",
   "scripts": {
-    "start": "http-server",
-    "deploy": "gh-pages -d ."
+    "start": "http-server"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
     "http-server": "^14.1.1"
   }
 }
