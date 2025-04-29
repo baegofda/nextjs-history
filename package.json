@@ -4,15 +4,11 @@
   "description": "Next.js 성장 일대기 프레젠테이션",
   "main": "index.html",
   "scripts": {
-    "start": "reveal-md index.html --theme black",
-    "build": "mkdir -p dist && cp -r node_modules/reveal.js/dist/* dist/ && cp index.html dist/",
-    "deploy": "gh-pages -d dist"
-  },
-  "dependencies": {
-    "reveal.js": "^4.5.0"
+    "start": "http-server",
+    "deploy": "gh-pages -d ."
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "reveal-md": "^5.3.4"
+    "http-server": "^14.1.1"
   }
 }
